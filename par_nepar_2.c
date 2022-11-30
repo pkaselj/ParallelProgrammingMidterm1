@@ -79,7 +79,7 @@ int main()
         assert(sizeof(void *) >= sizeof(int));
         /*
          * Ako nije istina, program puca u gornjoj liniji sa porukom:
-         *   par_nepar_2: par_nepar_2.c:77: main: Assertion `sizeof(char) >= sizeof(int)' failed.
+         *   par_nepar_2: par_nepar_2.c:77: main: Assertion `sizeof(void*) >= sizeof(int)' failed.
          *   Aborted (core dumped)
          * ************************************************************ */
 
